@@ -1,0 +1,51 @@
+SLIDE 1
+Goodmorning everyone I'm divyansh and i welcome all of you to my presentation on the topic
+
+SLIDE 2
+Uses of Queue
+
+SLIDE 3
+First lets talk about queues
+A queue is a foundational data structure used in programming applications.
+It is an abstract data type or a linear data structure,
+that stores the elements sequentially.
+It uses the First In First Out or FIFO approach for accessing its elements.
+
+SLIDE 4
+now, what are the uses of queues?
+some real life examples of queues are:-
+lines at a ticket counter for a movie or a train
+people standing on an escalator are also in a queue as the first person to step on the escalator will also be the first person to get off of the escalator.
+
+Both of these examples run on the First In First Out mechanism
+
+SLIDE 5
+some applications of queues in computer science are
+
+the working of a printer
+
+priority queues for an operating system
+
+Keyboard entries, let me explain this one, have you ever noticed that when your computer is under heavy load, it starts to lag and if you are typing something, the letters appear after a delay, but they are always in the order that we have typed them in. This works as the keys that we enter are stored in a queue and the CPU processes the input as it gets free.
+
+other examples are
+
+music players like spotify, which have a queue of songs that it will play for us one after the other
+
+CPU scheduling
+and
+handling of website traffic
+are other examples
+
+
+SLIDE 6
+Lets quickly summarise what all we have talked about in this presentation
+queues are a linear data structure
+they work on the First In First Out principle
+Queues have a wide range of applications
+Queues are very important even in our daily lives
+Queues are an integral part of computer science and their importance is deeply felt.
+
+SLIDE 7
+That is all from my side
+Have a great day ahead.

@@ -1,0 +1,127 @@
+slide 1
+Goodmorning everyone im divyansh and i welcome you to my presentation on the topic
+
+slide 2
+operators and set operators in SQL
+where we'll talk about
+what SQL operators are
+types of SQL operators
+their parameteres
+syntax
+and also their working
+
+slide 3
+So what are SQL operators?
+SQL operators are special words or characters used to perform different tasks
+
+slide 4
+the different types of sql operators are:
+Arithmetic Operators
+Bitwise Operators
+Comparison Operators
+Compound Operators
+Logical Operators
+and also Set Operators
+
+slide 5
+Arithmetic operators comprise of the
+add
+subtract
+multiply
+divide
+and modulo operators
+
+slide 6
+bitwise operators comprise of 
+bitwise AND
+Bitwise OR
+and Bitwise exclusive OR operators
+
+slide 7
+comparison operators comprise of
+equals to
+greater than
+less than
+greater than equal to
+less than equal to
+and also not equal to operators
+
+slide 8
+compound operators comprise of
+add equals
+subtract equals
+multiply equals
+divide equals
+modulo equals
+bitwise AND equals
+bitwise exclusive equals
+and bitwise OR equals operators
+
+slide 9
+logical operators have
+all
+and
+any
+between
+exists
+in
+like
+not
+or
+and, some, operators
+
+their meanings or use are quite straightforward and are also written infront of them
+
+slide 10
+Now lets see what set operators are
+SQL set operators are used to combine the results obtained from two or more queries into a single result.
+
+slide 11
+There are four major types of SQL operators, namely:
+union
+union all
+intersect
+and minus
+
+slide 12
+The different parameters used in the syntax are :
+
+SET OPERATOR: where we mention the set operator which we want to use
+column_name: where we Mention the column name on which we want to perform the set operation
+And the table names from where we want to fetch the data.
+
+From the above-mentioned parameters, all the parameters are mandatory. You may use WHERE GROUP BY and HAVING clauses based on your requirements.
+
+slide 13
+Here you can see the syntax for the union set operator
+
+slide 14
+syntax for the union all set operator
+
+slide 15
+for the intersect set operator
+
+slide 16
+and for the minus set operator
+as you can see the only thing that changes is the set operator name
+
+slide 17
+Here is a list of a few points which we should be kept in mind while working with SQL set operators:
+
+The number of columns in the SELECT statement on which we have applied SQL set operators must be the same.
+
+The selected columns must have the same data type.
+
+The order of the columns must be in the same order as mentioned in the SELECT statement.
+
+slide 18
+from this presentation we have learnt about
+what SQL Operators are
+the types of SQL operators
+their funtions in brief
+and the types of set operators
+their syntax
+and their working
+
+slide 19
+thats its from my side, have a great day ahead.

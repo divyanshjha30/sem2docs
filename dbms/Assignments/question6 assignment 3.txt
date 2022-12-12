@@ -1,0 +1,22 @@
+create table suppliers(
+sid number(5) constraint pk_suppliers_sid primary key,
+sname varchar2(20),
+address varchar2(30));
+
+create table parts(
+pid number(5) constraint pk_parts_pid primary key,
+pname varchar2(20),
+color varchar2(20));
+
+create table catalog(
+sid number(5) constraint fk_catalog_sid references suppliers(sid),
+pid number(5) constraint fk_catalog_pid references parts(pid),
+cost number(10));
+
+
+select catalog.sid from catalog,parts,suppliers where catalog.pid = parts.pid and catalog.sid = sailors.sid and parts.color = 'red' or sailors.address = '221 Packer Street';
+
+
+select max(catalog.pid) from catalog,suppliers where catalog.sid = suppliers.sid group by suppliers.sname having suppliers.sname = 'yosemite sham';
+
+select catalog.pid from catalog,suppliers where catalog.sid = suppliers.sid group by suppliers.sid where catalog.cost<200;
