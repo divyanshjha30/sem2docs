@@ -1,0 +1,31 @@
+Slide 1
+Goodmorning Everyone and welcome to my presentation today on the topic
+
+slide 2
+Query Strings and Hidden Fields
+
+slide 3
+so what are Hidden Fields?
+We can store small amounts of information on the client by using hidden fields.
+Hidden fields are HTML elements, similar to text boxes, where you can store strings.
+Web browsers don't display hidden fields in page output.
+However, when you use a hidden field within an HTML form, the contents are submitted back to your program.
+
+slide 4
+How to use Hidden Fields?
+To use hidden fields, we need to use a code line that looks similar to the following within a <form> area tag
+and to extract the hidden field's value, we use the Params collection in the Request object, using a code line like this.
+
+slide 5
+about Query Strings
+we can also use query strings to pass parameters from page to page.
+Query strings are bits of information appended to an URL as in the following line:
+
+slide 6
+here we can see ShowSales.html: Passing a Query String to SalesFigures.php
+
+slide 7
+and here we can see SalesFigures.php: Showing Different Sales Depending on a Query String
+
+slide 8
+That's it from my side guys have a nice day.
